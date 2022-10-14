@@ -1,0 +1,328 @@
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header{
+height: 120px;
+background-color: rgb(63, 63, 63);
+}
+
+.header .logo{
+position: absolute;
+float: left;
+margin-top: 30PX;
+margin-left: 30px;
+}
+
+.YG{
+font-weight: bold;
+margin-left: 70px;
+font-size: 50px;
+position: absolute;
+color:goldenrod;
+height: 120px;
+float: left;
+}
+
+.YG p{
+margin-left: 25px;
+margin-top: 30px;
+}
+
+.YG1 input[type=text]{
+position: absolute;
+float: left;
+margin-left: 350px;
+margin-top: 32px;
+width: 500px;
+height: 40px;
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px
+}
+
+.YG1 button{
+margin-left: 858px;
+position: absolute;
+float: left;
+background-color: BLACK;
+height: 45px;
+width: 60px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+margin-top: 32px;
+}
+
+/* .acc a{
+width: 100%;
+color: greenyellow;
+font-size: x-large;
+text-decoration: none;
+}
+
+.user{
+text-align: right;
+}
+
+.regis{
+text-align: right;
+} */
+
+.header1{
+position: absolute;
+height: 50px;
+width: 100%;
+color: yellow;
+background-color: black;
+}
+
+.header1 ul{
+list-style: none;
+}
+
+.header1 li{
+width: 100%;
+margin-top: -10px;
+font-size: 20px;
+height: 25px;
+padding: 8px;
+width: max-content;
+display: inline-block;
+position: relative;
+}
+
+.header1 a:hover{
+color: white;
+}
+
+.header1 a{
+text-decoration: none;
+color: goldenrod;
+}
+
+.menu{
+position: absolute;
+margin-top: 50px;
+font-size: 30px;
+color: brown;
+padding: 20px;
+}
+
+.menu:hover{
+color: black;
+}
+
+.menu1{
+position: absolute;
+margin-top: 30px;
+font-size: 30px;
+color: brown;
+padding: 20px;
+}
+
+.menu1:hover{
+color: black;
+}
+
+.bottom{
+margin-top: 100px;
+}
+
+.main{
+padding-bottom: 30px;
+text-align: center;
+margin-top: 140px;
+}
+
+.menu{
+text-align: center;
+width: 100%;
+padding-top: 30px;
+}
+
+.menu a{
+color: black;
+font-size: xx-large;
+text-decoration: none;
+}
+
+.menu a:hover{
+color: goldenrod;
+}
+
+.menu1{
+text-align: center;
+width: 100%;    
+padding-bottom: 50px;
+}
+
+.menu1 a{
+color: black;
+font-size: xx-large;
+text-decoration: none;
+}
+
+.menu1 a:hover{
+color: goldenrod;
+}
+
+.col25{
+width: 25%;
+float: left;
+}
+
+.prod{
+border-radius: 5px;
+box-shadow: 0px 0px 5px gray;
+margin: 5px;
+padding: 5px;
+height: 350px;
+text-align: center;
+position: relative;
+}
+
+.prod .name{
+font-size: larger;  
+}
+
+.name a{
+text-decoration: none;
+color: black;
+}
+
+.name a:hover{
+color: orangered;
+}
+
+.image{
+max-width: 98%;
+height: 250px;
+margin-bottom: 10px;
+}
+
+.prod:hover{
+border: 2px solid black;
+}
+
+.prod .price{
+position: absolute;
+left: 5px;
+bottom: 5px;
+font-size: 20px;
+color: red;
+}
+
+.price del{
+color: black;
+}
+
+.prod .icons{
+position: absolute;
+top: 5px;
+left: 5px;
+}
+
+.prod .newicon{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.main1{
+padding-top: 130px;
+}
+
+.main2{
+padding-top: 380px;
+padding-bottom: 500px;
+}
+
+.footer{
+width: 100%;
+height: 340px;
+background-image: url("../Image/background.jpg");
+background-size: 2000px;
+}
+
+.footer>.left{
+float: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.system{
+font-size: xx-large;
+}
+
+.system a{
+text-decoration: none;
+color: black;
+}
+
+.system a:hover{
+color: red;
+}
+
+.left div{
+padding: 5px;
+}
+
+.hotline a{
+text-decoration: none;
+color:BLACK;
+}
+
+.hotline a:hover{
+color: red;
+}
+
+.footer .center{
+float: left;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 20px;
+}
+
+.support ul li{
+ display: block;
+}
+
+.ul a{
+text-decoration: none;
+margin-left: -40px;
+font-size: large;
+color: BLACK;
+}
+.ul a:hover{
+    color: red;
+    }
+
+
+.ul li{
+padding: 5px;
+}
+
+.footer .right{
+float: left;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 20px;
+}
+
+.supportt ul li{
+display: block;
+}
+
+.ull a{
+text-decoration: none;
+margin-left: -40px;
+font-size: large;
+color:BLACK;
+}
+.ull a:hover{
+    color: red;
+    }
+    
+    .ull li{
+    padding: 5px;
+    }
